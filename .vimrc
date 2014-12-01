@@ -27,6 +27,7 @@ NeoBundle 'mattn/webapi-vim'
 NeoBundle 'moznion/hateblo.vim'
 NeoBundle 'tyru/caw.vim'
 NeoBundle 'kana/vim-submode'
+NeoBundle 'rking/ag.vim'
 
 filetype plugin indent on
 
