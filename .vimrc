@@ -28,6 +28,7 @@ NeoBundle 'moznion/hateblo.vim'
 NeoBundle 'tyru/caw.vim'
 NeoBundle 'kana/vim-submode'
 NeoBundle 'rking/ag.vim'
+NeoBundle 'glidenote/memolist.vim'
 
 filetype plugin indent on
 
@@ -163,3 +164,7 @@ call submode#map('bufmove', 'n', '', '-', '<C-w>-')
 nmap <Leader>c <Plug>(caw:i:toggle)
 vmap <Leader>c <Plug>(caw:i:toggle)
 
+" /** memolist.vim keymap */
+map mn  :MemoNew<CR>
+map ml  :MemoList<CR>
+map mg  :MemoGrep<CR>
