@@ -37,6 +37,7 @@ NeoBundleCheck
 " vimfiler
 " let g:vimfiler_edit_action = 'tabopen'
 nnoremap <silent>vf :VimFiler<CR>
+let g:vimfiler_as_default_explorer = 1
 
 
 " neocomplcache
