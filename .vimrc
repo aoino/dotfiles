@@ -20,6 +20,7 @@ NeoBundle 'Shougo/vimproc', {
 \ }
 NeoBundle 'Shougo/vimfiler'
 NeoBundle 'Shougo/unite.vim'
+NeoBundle 'Shougo/neomru.vim'
 NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'tpope/vim-fireplace'
