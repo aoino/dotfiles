@@ -99,6 +99,8 @@ set showmode
 set clipboard+=unnamed
 set clipboard+=autoselect "ヤンクした文字をシステムのクリップボードへ
 set virtualedit+=block
+set backspace=indent,eol,start " insertモード時にbackspaceを使う
+set tags=./.tags,.tags,./tags,tags
 
 "コロンとセミコロンを入れ替え
 " noremap ; :
