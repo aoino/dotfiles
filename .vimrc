@@ -7,10 +7,9 @@ if has('vim_starting')
 endif
 
 call neobundle#begin(expand('~/.vim/bundle/'))
-NeoBundleFetch 'Shougo/neobundle.vim'
-call neobundle#end()
 
-NeoBundle 'Shougo/vimproc', {
+NeoBundleFetch 'Shougo/neobundle.vim'
+NeoBundleFetch 'Shougo/vimproc', {
 \ 'build' : {
 \ 'windows' : 'make -f make_mingw32.mak',
 \ 'cygwin' : 'make -f make_cygwin.mak',
@@ -30,6 +29,8 @@ NeoBundle 'tyru/caw.vim'
 NeoBundle 'kana/vim-submode'
 NeoBundle 'rking/ag.vim'
 NeoBundle 'glidenote/memolist.vim'
+
+call neobundle#end()
 
 filetype plugin indent on
 
